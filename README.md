@@ -24,12 +24,19 @@ To start a web server for the application, run:
 
     open http://localhost:3000
 
+    open http://localhost:3000/swagger-ui
+
+    open http://localhost:3000/swagger-ui-private
+
 ## Features
 
    - Single Page Application with Reagent
+   - Backend page rendering with Selmer
+   - Front end pagination
    - SQL Database Access with HugSQL
    - Web Services with compojure-api/swagger
-   - Athentication
+   - Form Validation
+   - Athentication with HTTP Basic
    - Fileupload
 
 Copyright © 2016
